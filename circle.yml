@@ -1,0 +1,14 @@
+machine:
+  # Version of node to use
+  node:
+    version:
+      9.3.0
+
+  environment:
+    CIRCLE_ENV: test
+    NODE_ENV: test
+
+## Customize dependencies
+dependencies:
+  override:
+    - npm install

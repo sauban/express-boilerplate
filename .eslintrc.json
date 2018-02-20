@@ -1,0 +1,21 @@
+{
+    "parser": "babel-eslint",
+    "plugins": [
+      "import",
+      "mocha"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true,
+      "mocha": true
+    },
+    "globals": {
+        "winston": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ]
+  }
